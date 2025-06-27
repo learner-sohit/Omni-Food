@@ -84,7 +84,7 @@ const obs = new IntersectionObserver(
 obs.observe(sectionHeroEl);
 
 ///////////////////////////////////////////////////////////
-// Fixing flexbox gap property missing in some Safari versions
+
 function checkFlexGap() {
   var flex = document.createElement("div");
   flex.style.display = "flex";
@@ -103,7 +103,7 @@ function checkFlexGap() {
 }
 checkFlexGap();
 
-// https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
+
 
 /*
 .no-flexbox-gap .main-nav-list li:not(:last-child) {
